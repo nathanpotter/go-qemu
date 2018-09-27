@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qmp"
 )
 
 var _ Driver = &SocketDriver{}

@@ -21,8 +21,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/digitalocean/go-qemu/qemu"
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qemu"
+	"github.com/nathanpotter/go-qemu/qmp"
 )
 
 var (

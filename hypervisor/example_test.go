@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/digitalocean/go-qemu/hypervisor"
-	"github.com/digitalocean/go-qemu/qmp"
-	"github.com/digitalocean/go-qemu/qmp/qmptest"
+	"github.com/nathanpotter/go-qemu/hypervisor"
+	"github.com/nathanpotter/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qmp/qmptest"
 )
 
 // ExampleStub exists to prevent godoc from treating this as a "whole-file"
 // example, and showing the code for the unexported types.
-func ExampleStub() {}
+// func ExampleStub() {}
 
 func ExampleNew() {
 	// Create a hypervisor.Hypervisor using an in-memory hypervisor.Driver,

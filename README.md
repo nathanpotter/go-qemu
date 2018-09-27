@@ -1,4 +1,4 @@
-go-qemu [![GoDoc](http://godoc.org/github.com/digitalocean/go-qemu?status.svg)](http://godoc.org/github.com/digitalocean/go-qemu) [![Build Status](https://travis-ci.org/digitalocean/go-qemu.svg?branch=master)](https://travis-ci.org/digitalocean/go-qemu) [![Report Card](https://goreportcard.com/badge/github.com/digitalocean/go-qemu)](https://goreportcard.com/report/github.com/digitalocean/go-qemu)
+go-qemu [![GoDoc](http://godoc.org/github.com/nathanpotter/go-qemu?status.svg)](http://godoc.org/github.com/nathanpotter/go-qemu) [![Build Status](https://travis-ci.org/nathanpotter/go-qemu.svg?branch=master)](https://travis-ci.org/nathanpotter/go-qemu) [![Report Card](https://goreportcard.com/badge/github.com/nathanpotter/go-qemu)](https://goreportcard.com/report/github.com/nathanpotter/go-qemu)
 =======
 
 `go-qemu` is a collection of Go packages for interacting with running QEMU
@@ -13,7 +13,7 @@ Installation
 Use `go get` to retrieve all of the packages in `go-qemu`:
 
 ```shell
-$ go get github.com/digitalocean/go-qemu/...
+$ go get github.com/nathanpotter/go-qemu/...
 ```
 
 Overview
@@ -41,7 +41,7 @@ Package `qemu` is used in production at DigitalOcean, alongside package
 possible that there may still be subtle bugs which could cause the packages to act
 in unexpected ways.
 
-If you encounter any problems, please [look at the open issues](https://github.com/digitalocean/go-qemu/issues)
+If you encounter any problems, please [look at the open issues](https://github.com/nathanpotter/go-qemu/issues)
 and if your problem does not match any of the ones listed, file a new issue with as
 much detail as you are willing to provide.
 

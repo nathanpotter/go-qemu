@@ -17,14 +17,14 @@ To see the list of posible arguments for each program, use `--help`.
 #### hypervisor_domain_list
 
 [hypervisor_domain_list](./hypervisor_domain_list) demonstrates how to use 
- the [hypervisor](https://godoc.org/github.com/digitalocean/go-qemu/hypervisor) 
+ the [hypervisor](https://godoc.org/github.com/nathanpotter/go-qemu/hypervisor) 
  package to obtain a list of the domains from the connected hypervisor. 
  The list of domains returned is of type: 
-[go-qemu/Domain](https://godoc.org/github.com/digitalocean/go-qemu#Domain).
+[go-qemu/Domain](https://godoc.org/github.com/nathanpotter/go-qemu#Domain).
 
 To run:
 ```{r, engine='bash', count_lines}
-   $ go get github.com/digitalocean/go-qemu/...
+   $ go get github.com/nathanpotter/go-qemu/...
    $ go run examples/hypervisor_domain_list/main.go -network=tcp \
                                           -address="hypervisorhost:16509"
 ```
@@ -46,14 +46,14 @@ debian8
 #### domain_details
 
 [domain_details](./domain_details) domanstrates how to use the 
-[go-qemu](https://godoc.org/github.com/digitalocean/go-qemu)
+[go-qemu](https://godoc.org/github.com/nathanpotter/go-qemu)
  to connect to a hypervisor host using 
- [qmp.NewLibvirtRPCMonitor](https://godoc.org/github.com/digitalocean/go-qemu/qmp#LibvirtRPCMonitor) 
+ [qmp.NewLibvirtRPCMonitor](https://godoc.org/github.com/nathanpotter/go-qemu/qmp#LibvirtRPCMonitor) 
  and get the details for a specified domain.
 
 To run:
 ```{r, engine='bash', count_lines}
-   $ go get github.com/digitalocean/go-qemu/...
+   $ go get github.com/nathanpotter/go-qemu/...
    $ go run examples/domain_details/main.go
    or
    $ go run examples/domain_details/main.go -network=tcp \
@@ -102,12 +102,12 @@ Status: running
 #### domain_system_powerdown
 
 [domain_system_powerdown](./domain_system_powerdown) demonstrates how to use 
- the [hypervisor](https://godoc.org/github.com/digitalocean/go-qemu/hypervisor) 
+ the [hypervisor](https://godoc.org/github.com/nathanpotter/go-qemu/hypervisor) 
  package to shut off the specified domain.
 
 To run:
 ```{r, engine='bash', count_lines}
-   $ go get github.com/digitalocean/go-qemu/...
+   $ go get github.com/nathanpotter/go-qemu/...
    $ go run examples/domain_system_powerdown/main.go -domainName="ubuntu14.04"
    or
    $ go run examples/domain_system_powerdown/main.go -network=tcp \

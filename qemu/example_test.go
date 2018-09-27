@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/digitalocean/go-qemu/qemu"
-	"github.com/digitalocean/go-qemu/qmp"
-	"github.com/digitalocean/go-qemu/qmp/qmptest"
+	"github.com/nathanpotter/go-qemu/qemu"
+	"github.com/nathanpotter/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qmp/qmptest"
 )
 
 // ExampleStub exists to prevent godoc from treating this as a "whole-file"
 // example, and showing the code for the unexported exampleMonitor type.
-func ExampleStub() {}
+// func ExampleStub() {}
 
 // This example demonstrates how to use qemu.NewDomain with a qmp.Monitor to
 // perform actions on a Domain.

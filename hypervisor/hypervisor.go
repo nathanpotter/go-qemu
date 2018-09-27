@@ -19,8 +19,8 @@ package hypervisor
 import (
 	"fmt"
 
-	"github.com/digitalocean/go-qemu/qemu"
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qemu"
+	"github.com/nathanpotter/go-qemu/qmp"
 )
 
 // A Hypervisor enables access to all virtual machines on a QEMU hypervisor.

@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qmp"
 )
 
 func TestCancelJob(t *testing.T) {

@@ -19,7 +19,7 @@ package qmptest
 import (
 	"encoding/json"
 
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/nathanpotter/go-qemu/qmp"
 )
 
 // A RunFunc is a function invoked to process a qmp.Command.  Any data
